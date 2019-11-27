@@ -1,0 +1,61 @@
+/*
+import processing.core.PImage;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Optional;
+
+public abstract class OpponentPenguin extends MoveEntity{
+
+    OpponentPenguin(Point position, List<PImage> images,
+         int imageIndex, int repeatCount, int actionPeriod, int animationPeriod,
+         int resourceLimit, int resourceCount)
+    {
+        super(position, images, imageIndex, repeatCount, actionPeriod, animationPeriod, resourceLimit, resourceCount);
+    }
+
+    protected Point nextPosition(WorldModel world, Point destPos) {
+        List<Point> points;
+        Point pos = this.getPosition();
+
+        points = p.computePath(pos, destPos,
+                point -> world.withinBounds(point) && !world.isOccupied(point),
+                (p1, p2) -> neighbors(p1, p2), PathingStrategy.CARDINAL_NEIGHBORS);
+
+        if (points.size() != 0) {
+            pos = points.get(0);
+        }
+        return pos;
+    }
+
+    protected boolean moveTo(WorldModel world, Entity target, EventScheduler scheduler)
+    {
+        if (this.getPosition().adjacent(target.getPosition()))
+        {
+            if (this instanceof OctoNotFull) {  // maybe make an Snowflake/nosnowflake stage??
+                this.setResourceCount(this.getResourceLimit() + 1);
+                world.removeEntity(target);
+                scheduler.unscheduleAllEvents(target);
+            }
+
+            return true;
+        }
+        else
+        {
+            Point nextPos = this.nextPosition(world, target.getPosition());
+
+            if (!this.getPosition().equals(nextPos))
+            {
+                Optional<Entity> occupant = world.getOccupant(nextPos);
+                if (occupant.isPresent())
+                {
+                    scheduler.unscheduleAllEvents(occupant.get());
+                }
+
+                world.moveEntity(this, nextPos);
+            }
+            return false;
+        }
+    }
+}*/
