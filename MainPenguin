@@ -1,0 +1,35 @@
+/*
+import processing.core.PImage;
+
+import java.util.List;
+
+public class MainPenguin {
+
+    // gonna be similar to octo
+    // make it a singleton design pattern
+
+    // method for changing position, calls from virtual world
+
+        MainPenguin(Point position, List<PImage> images,
+                        int imageIndex, int repeatCount, int actionPeriod, int animationPeriod,
+                        int resourceLimit, int resourceCount)
+        {
+
+        }
+
+        protected Point nextPosition(WorldModel world, Point destPos) {
+            List<Point> points;
+            Point pos = this.getPosition();
+
+            points = p.computePath(pos, destPos,
+                    point -> world.withinBounds(point) && !world.isOccupied(point),
+                    (p1, p2) -> neighbors(p1, p2), PathingStrategy.CARDINAL_NEIGHBORS);
+
+            if (points.size() != 0) {
+                pos = points.get(0);
+            }
+            return pos;
+        }
+
+}
+*/
