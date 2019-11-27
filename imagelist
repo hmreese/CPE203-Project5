@@ -1,0 +1,38 @@
+atlantis images/tree_1.png 255 255 255 0
+atlantis images/tree_2.png
+atlantis images/tree_3.png
+atlantis images/tree_1.png
+atlantis images/tree_2.png
+atlantis images/tree_3.png
+atlantis images/tree_1.png
+crab images/crabout01.bmp 255 255 255 128
+crab images/crabout02.bmp 255 255 255 128
+crab images/crabout03.bmp 255 255 255 128
+crab images/crabout04.bmp 255 255 255 128
+crab images/crabout05.bmp 255 255 255 128
+crab images/crabout06.bmp 255 255 255 128
+crab images/crabout07.bmp 255 255 255 128
+crab images/crabout08.bmp 255 255 255 128
+crab images/crabout09.bmp 255 255 255 128
+crab images/crabout10.bmp 255 255 255 128
+crab images/crabout11.bmp 255 255 255 128
+crab images/crabout11.bmp 255 255 255 128
+ice images/ice.bmp 255 255 255 0
+octo images/s1.bmp 255 255 255 0
+octo images/s2.bmp 255 255 255 0
+octo images/s3.bmp 255 255 255 0
+octo images/s4.bmp 255 255 255 0
+octo images/s5.bmp 255 255 255 0
+obstacle images/candycane.png
+obstacle images/bubbles.bmp
+fish images/fish.bmp 255 255 255 0
+snowflake images/snowflake.png 255 255 255 0
+quake images/quake1.bmp 255 255 255 0
+quake images/quake2.bmp 255 255 255 0
+quake images/quake3.bmp 255 255 255 0
+quake images/quake4.bmp 255 255 255 0
+quake images/quake5.bmp 255 255 255 0
+quake images/quake6.bmp 255 255 255 0
+bubbles images/bubbles.bmp
+seaGrass images/Seaweed1.bmp 255 255 255 0
+background_default images/none.bmp
